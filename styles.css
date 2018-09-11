@@ -115,12 +115,12 @@ li {
 a.see-more {
     color: #2a2a2a;
     text-decoration: none;
-    border-bottom: 5px solid yellow;
+    border-bottom: 5px solid #ffff93;
     padding:0 10px;
 }
 a.see-more:hover {
-    border-bottom: 5px solid yellow;
-    background-color: yellow;
+    border-bottom: 5px solid #ffff93;
+    background-color: #ffff93;
     padding:0 10px;
 }
 body img {
@@ -140,12 +140,12 @@ footer {
 li a {
     color: #2a2a2a;
     text-decoration: none;
-    border-bottom: 5px solid yellow;
+    border-bottom: 5px solid #ffff93;
     padding:0 10px;
 }
 li a:hover {
-    border-bottom: 5px solid yellow;
-    background-color: yellow;
+    border-bottom: 5px solid #ffff93;
+    background-color: #ffff93;
     padding:0 10px;
 }
 
