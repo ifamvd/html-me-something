@@ -117,6 +117,7 @@ a.see-more {
     text-decoration: none;
     border-bottom: 5px solid #ffff93;
     padding:0 10px;
+    transition: .3s;
 }
 a.see-more:hover {
     border-bottom: 5px solid #ffff93;
@@ -142,6 +143,7 @@ li a {
     text-decoration: none;
     border-bottom: 5px solid #ffff93;
     padding:0 10px;
+    transition: .3s;
 }
 li a:hover {
     border-bottom: 5px solid #ffff93;
