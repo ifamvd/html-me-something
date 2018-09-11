@@ -4,6 +4,9 @@ body {
     margin:0;
     width: 100%;
 }
+div {
+    display: block;
+}
 h1 {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
@@ -26,6 +29,7 @@ img#author {
 .author-box {
     width: 300px;
     margin: 0 auto;
+    display: block;
 }
 .author-avatar {
     float: left;
@@ -39,7 +43,7 @@ img#author {
     color: #aaaaaa;
     text-transform: lowercase;
     font-family: 'Playfair Display', serif;
-    font-size: 10px;
+    font-size: 12px;
     margin: 5px 0 0 20px;
     padding: 0;
     text-align: left;
