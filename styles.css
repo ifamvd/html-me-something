@@ -2,16 +2,53 @@
 body {
     padding:0;
     margin:0;
+    width: 100%;
 }
 h1 {
-    font-family: 'PostoniWide',FranklinITCStdLight;
-    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
     font-size: 3em;
     word-spacing: -0.02em;
-    margin-bottom: 8px;
+    margin-bottom: 35px;
     line-height: 1.1em;
     color: #2a2a2a;
     display: inline-block;
     text-align: center;
     width: 100%;
+}
+img#author {
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    padding: 0;
+    margin: 0;
+}
+.author-box {
+    width: 300px;
+    margin: 0 auto;
+}
+.author-avatar {
+    float: left;
+    width: 60px;
+}
+.author-name {
+    float: left;
+    width: 240px;
+}
+.written-by {
+    color: #aaaaaa;
+    text-transform: lowercase;
+    font-family: 'Playfair Display', serif;
+    font-size: 10px;
+    margin: 5px 0 0 20px;
+    padding: 0;
+    text-align: left;
+}
+.written-by-name {
+    color: #2a2a2a;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    margin: 0 0 0 30px;
+    padding: 0;
+    text-align: left;
 }
