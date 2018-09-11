@@ -7,6 +7,21 @@ body {
     font-size: 1.1em;
     color: #2a2a2a;
 }
+header {
+    padding:0;
+    margin:0;
+    width:100%;
+}
+main {
+    padding:0;
+    margin:0;
+    width:100%;
+}
+article {
+    padding:0;
+    margin:0;
+    width:100%;
+}
 div.outer-box {
     width:100%;
     padding:0 0 35px 0;
@@ -132,4 +147,54 @@ li a:hover {
     border-bottom: 5px solid yellow;
     background-color: yellow;
     padding:0 10px;
+}
+
+/** Quotes stuff **/
+
+.quote-container {
+    margin: 55px auto;
+}
+blockquote {
+    background: none;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    position: relative;
+    z-index: 600;
+    margin-bottom: 0 !important;
+}
+blockquote * {
+    box-sizing: border-box; 
+}
+blockquote p {
+    color: #5e5e5e;
+    margin-bottom:0;
+}
+blockquote p:first-child:before {
+    content: '\201C';
+    color: #81bedb;
+    font-size: 7.5em;
+    font-weight: 700;
+    opacity: .3;
+    position: absolute;
+    top: -.5em;
+    left: -.3em;    
+    text-shadow: none;
+    z-index: -300;
+}
+cite {
+    color: gray;
+    display: block;
+    font-size: .8em; 
+    padding-left:65px;
+    text-align: left;
+    margin-top: 0;
+} 
+cite span {
+    color: #2a2a2a;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 0 1px white; 
 }
