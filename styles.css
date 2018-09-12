@@ -102,6 +102,7 @@ ul {
 }
 li {
     margin-left:35px;
+    margin-bottom: 5px;
 }
 .review {
     width: 60%;
@@ -115,14 +116,15 @@ li {
 a.see-more {
     color: #2a2a2a;
     text-decoration: none;
-    border-bottom: 5px solid #ffff93;
-    padding:0 10px;
-    transition: .3s;
+    border-bottom: 3px solid yellow;
+    padding:0 10px 0 0;
+    transition: all .3s;
+    background-image: linear-gradient(to right, #ffffff 50%, yellow 50%);
+    background-position: 0;
+    background-size: 200%;
 }
 a.see-more:hover {
-    border-bottom: 5px solid #ffff93;
-    background-color: #ffff93;
-    padding:0 10px;
+    background-position: -100%;
 }
 body img {
     text-align: center;
@@ -141,16 +143,17 @@ footer {
 li a {
     color: #2a2a2a;
     text-decoration: none;
-    border-bottom: 5px solid #ffff93;
-    padding:0 10px;
-    transition: .3s;
+    border-bottom: 3px solid yellow;
+    padding:0 10px 0 0;
+    transition: all .3s;
+    background-image: linear-gradient(to right, #ffffff 50%, yellow 50%);
+    background-position: 0;
+    background-size: 200%;
 }
 li a:hover {
-    border-bottom: 5px solid #ffff93;
-    background-color: #ffff93;
-    padding:0 10px;
+    background-position: -100%;
 }
-
+  
 /** Quotes stuff **/
 
 .quote-container {
